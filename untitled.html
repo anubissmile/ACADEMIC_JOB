@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="a,b,c,d,e,f,g">
+<meta name="description" content="aldsfkj;ldsjjfjdsflkj;">
+<style>
+	.b {
+		width:200px;
+		height:200px;
+		background-color:red;
+	}
+	.a {
+		width:200px;
+		height:200px;
+		background-color:blue;
+	}
+</style>
+<title>Untitled Document</title>
+<script src="js/jquery-2.1.0.js" ></script>
+</head>
+
+<body>
+<div class="b" id="has">asf</div>
+<button>click</button>
+</body>
+</html>
+<script>
+	
+	$(document).ready(function(e) {
+		$('button').click(function(){
+			$("#has").toggleClass('a');
+		});
+    });
+</script>

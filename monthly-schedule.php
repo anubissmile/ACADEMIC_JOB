@@ -1,0 +1,1 @@
+<img align="middle" src="images/monthly-schedule.jpg" />
